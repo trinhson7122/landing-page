@@ -11,6 +11,7 @@
 
 <body class="bg-secondary">
     <div class="container bg-light">
+        {{-- NAV --}}
         <nav id="nav" class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold" href="{{ route('home') }}">TRINHSON</a>
@@ -30,66 +31,70 @@
                 </div>
             </div>
         </nav>
-        <section id="hero" class="d-flex align-items-center">
+        {{-- END NAV --}}
 
+        {{-- HEADER --}}
+        <section id="hero" class="d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0">
                         <h1 class="logo">Better Hosting For Your Business</h1>
                         <h2 class="text-secondary">Offers a lot of storage solutions</h2>
                         <div class="mt-3 mb-3 d-flex justify-content-center justify-content-lg-start">
-                            <a href="#about" class="btn btn-primary btn-round">Get Started</a>
+                            <a href="#products" class="btn btn-primary btn-round">Get Started</a>
                         </div>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate">
+                    <div class="col-lg-6 order-1 order-lg-2 hero-img">
                         <img src="https://photo2.tinhte.vn/data/attachment-files/2021/10/5682597_Hosting-Thiet-Ke-Web-Shop-Ban-Hang-Online-kien-thuc-kiem-tien-online.png"
                             class="img-fluid animated" alt="">
                     </div>
                 </div>
             </div>
         </section>
+        {{-- END HEADER --}}
+
+        {{-- ABOUT US --}}
         <div id="about" class="mt-3">
             <h2 class="section-title mb-3">ABOUT US</h2>
             <div class="row content">
                 <div class="col-lg-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, rerum tempora. Laudantium illo
-                        fuga explicabo quam voluptatem. Neque fugit quam voluptates eius, voluptate necessitatibus sequi
-                        iure optio perferendis earum asperiores?</p>
                     <ul>
-                        <li><i class="fa-solid fa-check text-primary"></i> <span class="fw-bold">Hosting experts support
-                                24/7</span>
+                        <li>
+                            <i class="fa-solid fa-check text-primary"></i>
+                            <span class="fw-bold">Hosting experts support24/7 </span>
                             <p>No more worrying about whether you will get help in time! A trained expert from Hostinger
                                 company will provide you with technical support almost all the time in Vietnamese
                                 (Vietnamese 24/7).</p>
                         </li>
-                        <li><i class="fa-solid fa-check text-primary"></i> <span class="fw-bold">Server hosting leading
-                                technology</span>
+                        <li>
+                            <i class="fa-solid fa-check text-primary"></i>
+                            <span class="fw-bold">Server hosting leading technology</span>
                             <p>We provide our customers with the most advanced and reliable servers in the market.</p>
-                        </li>
-                        <li><i class="fa-solid fa-check text-primary"></i> <span class="fw-bold">Easy & Free hosting
-                                transfer</span>
-                            <p>To fully support you from the start, we do not charge a fee to transfer your website to
-                                Hostinger. Technical experts will help you do this, so you can focus on your main job,
-                                faster.</p>
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore explicabo illo odio
-                        repudiandae. Facilis, quia! Similique debitis, repellat magnam excepturi molestias, eligendi eum
-                        porro quaerat animi perferendis in dolorem.
-                    </p>
                     <ul>
-                        <li><i class="fa-solid fa-check text-primary"></i> <span class="fw-bold">Maximum security</span>
+                        <li>
+                            <i class="fa-solid fa-check text-primary"></i>
+                            <span class="fw-bold">Easy & Free hosting transfer</span>
+                            <p>To fully support you from the start, we do not charge a fee to transfer your website to
+                                Hostinger. Technical experts will help you do this, so you can focus on your main job,
+                                faster.</p>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check text-primary"></i>
+                            <span class="fw-bold">Maximum security</span>
                             <p>We don't take security lightly, so from the moment you buy a domain and hosting, we'll
                                 give you an SSL to help keep your website safe. Install free SSL</p>
                         </li>
                     </ul>
-                    <a href="#" class="btn-learn-more btn-secondary btn">Learn More</a>
                 </div>
             </div>
         </div>
+        {{-- END ABOUT US --}}
+
+        {{-- TEAM --}}
         <div id="team" class="mt-3">
             <h2 class="section-title mb-3">TEAM</h2>
             <div class="row">
@@ -183,6 +188,9 @@
                 </div>
             </div>
         </div>
+        {{-- END TEAM --}}
+
+        {{-- PRODUCTS --}}
         <div id="products" class="mt-3">
             <h2 class="section-title mb-3">PRODUCTS</h2>
             <div class="row text-center">
@@ -263,6 +271,10 @@
                                     <h4>Call:</h4>
                                     <p>+84372238783</p>
                                 </div>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14893.305023858797!2d105.7368803!3d21.0596277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454e33407ecc7%3A0x6b9d843be64f7f06!2zTWluaCBLaGFpLCBC4bqvYyBU4burIExpw6ptLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1686578294876!5m2!1svi!2s"
+                                    frameborder="0" style="border:0; width: 100%; height: 290px;"
+                                    allowfullscreen=""></iframe>
                             </div>
                         </div>
                     </div>
@@ -303,33 +315,35 @@
 
             </div>
         </div>
+        {{-- END PRODUCTS --}}
+
+        {{-- FOOTER --}}
         <footer class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <a href="{{ route('home') }}" class="logo">TRINHSON</a>
-                        <p class="text-dark-50 mt-4">Hyper makes it easier to build better websites with
-                            <br> great speed. Save hundreds of hours of design
-                            <br> and development by using it.
-                        </p>
 
-                        <ul class="social-list list-inline mt-3">
+                        <ul class="social-list list-inline mt-3 social">
                             <li class="list-inline-item text-center">
-                                <a href="javascript: void(0);" class="social-list-item border-primary text-primary"><i
-                                        class="mdi mdi-facebook"></i></a>
+                                <a href="javascript: void(0);" class="social-list-item border-primary text-primary">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item text-center">
-                                <a href="javascript: void(0);" class="social-list-item border-danger text-danger"><i
-                                        class="mdi mdi-google"></i></a>
+                                <a href="javascript: void(0);" class="social-list-item border-primary text-primary">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item text-center">
-                                <a href="javascript: void(0);" class="social-list-item border-info text-info"><i
-                                        class="mdi mdi-twitter"></i></a>
+                                <a href="javascript: void(0);" class="social-list-item border-primary text-primary">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
                             </li>
                             <li class="list-inline-item text-center">
-                                <a href="javascript: void(0);"
-                                    class="social-list-item border-secondary text-secondary"><i
-                                        class="mdi mdi-github-circle"></i></a>
+                                <a href="javascript: void(0);" class="social-list-item border-primary text-primary">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
                             </li>
                         </ul>
 
@@ -339,12 +353,18 @@
                         <h5 class="text-dark">Company</h5>
 
                         <ul class="list-unstyled pl-0 mb-0 mt-3">
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">About Us</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Documentation</a>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">About Us</a>
                             </li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Blog</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Affiliate
-                                    Program</a></li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Documentation</a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Blog</a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Affiliate Program</a>
+                            </li>
                         </ul>
 
                     </div>
@@ -353,14 +373,21 @@
                         <h5 class="text-dark">Apps</h5>
 
                         <ul class="list-unstyled pl-0 mb-0 mt-3">
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Ecommerce
-                                    Pages</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Email</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Social Feed</a>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Ecommerce Pages</a>
                             </li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Projects</a></li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Tasks
-                                    Management</a></li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Email</a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Social Feed</a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Projects</a>
+                            </li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Tasks Management</a>
+                            </li>
                         </ul>
                     </div>
 
@@ -368,11 +395,15 @@
                         <h5 class="text-dark">Discover</h5>
 
                         <ul class="list-unstyled pl-0 mb-0 mt-3">
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Help Center</a>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Help Center</a>
                             </li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Our Products</a>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Our Products</a>
                             </li>
-                            <li class="mt-2"><a href="javascript: void(0);" class="text-dark-50">Privacy</a></li>
+                            <li class="mt-2">
+                                <a href="javascript: void(0);" class="text-dark-50">Privacy</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -380,13 +411,15 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div>
-                            <p class="text-dark-50 mt-4 text-center mb-0">© 2023 Hyper. Design and coded by
-                                TrinhXuanSon</p>
+                            <p class="text-dark-50 mt-4 text-center mb-0">
+                                © 2023 Hyper. Design and coded by TrinhXuanSon
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        {{-- END FOOTER --}}
     </div>
 
     <script src="{{ asset('js/icon.js') }}" crossorigin="anonymous"></script>

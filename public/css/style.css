@@ -88,3 +88,6 @@ form label.error {
 a {
     text-decoration: none !important;
 }
+footer a {
+    color: black;
+}
