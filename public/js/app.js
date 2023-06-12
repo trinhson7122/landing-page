@@ -34,6 +34,10 @@ $(document).ready(function () {
 
 					form[0].reset();
 				},
+                error: function (response) {
+                    response = response.responseJSON;
+                    swal("Alert", response.message, "error");
+                }
             });
         }
     });
