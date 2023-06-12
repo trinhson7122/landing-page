@@ -1,0 +1,90 @@
+#nav {
+    background-color: rgb(2, 59, 109);
+}
+#nav a {
+    color: whitesmoke;
+}
+.btn-round {
+    border-radius: 50px!important;
+}
+#hero {
+    background-color: rgb(12, 45, 73);
+    color: whitesmoke;
+}
+#hero .btn {
+    color: whitesmoke;
+}
+#hero h1, .logo {
+    font-size: 50px;
+}
+#hero h2 {
+    font-size: 25px;
+}
+.section-title {
+    text-align: center;
+    font-weight: bold;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+.card-pricing p {
+    font-weight: bold;
+    font-size: 130%;
+}
+.card-pricing .card-pricing-price {
+    color: rgb(12, 45, 73);
+    font-size: 115%;
+}
+.card-pricing ul {
+    margin: 0 !important;
+}
+.card-pricing ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+.card-pricing .card-pricing-features {
+    padding: 20px;
+}
+ul .na {
+    text-decoration-line: line-through;
+    color: rgb(121, 121, 121);
+}
+/* validate */
+form input.error, form textarea.error {
+    border: 1px solid red;
+}
+form input.valid,form textarea.valid {
+    border: 1px solid green;
+}
+form label.error {
+    color: red;
+}
+.pic {
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.member-info {
+    padding-left: 30px;
+}
+.social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social a i {
+    border-radius: 50%;
+    color: rgb(12, 45, 73);
+    background-color: rgb(201, 201, 201);
+    align-items: center;
+    padding: 10px;
+}
+.social a {
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none !important;
+}
